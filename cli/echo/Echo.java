@@ -6,7 +6,7 @@ import java.util.List;
 public class Echo {
     public static void main(String[] args) {
         List<String> argsToPrint = new ArrayList<>();
-
+        // lalalala
         for (String arg : args) {
             if (arg.startsWith("-")) {
                 // TODO: Interpret argument
